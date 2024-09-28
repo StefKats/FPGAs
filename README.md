@@ -9,6 +9,6 @@ Can facilitate high-speed data transfer for distributed training of large-scale 
 
 Larger NN models can be compressed via quantization aware training, pruning and combining weights to be run with low latency and power consumption 
 
-Compressed NNs can be translated by HLS4ML then, vivado
+Compressed NNs can be translated to by HLS4ML to C++. The C++ is given to Vivado to translate into FGPA logic (Hardware description language, such as VHDL). The design is tested and is converted into a bitstream file which is used ro program the FPGA.
 
-real time inference, industry 
+Real time inference, edge computing and cloud data centre processing.
