@@ -12,3 +12,8 @@ Larger NN models can be compressed via quantization aware training, pruning and 
 Compressed NNs can be translated to by HLS4ML to C++. The C++ is given to Vivado to translate into FGPA logic (Hardware description language, such as VHDL). The design is tested and is converted into a bitstream file which is used ro program the FPGA.
 
 Real time inference, edge computing and cloud data centre processing.
+
+-----
+
+Automatic differentiation 
+
